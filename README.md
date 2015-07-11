@@ -20,6 +20,13 @@ Contributions on these, or others, are Welcome!
 QUICKSTART
 ---
 
+`curl -L -O https://github.com/fmarani/customs/releases/download/v1.0/customs`
+
+Compile
+---
+
+If you don't want to run it directly with the command above, or you are compiling from a different architecture, you can compile it from sources.
+
 - git clone this repo
 - run `./compile.sh`
 - run `bin/customs`
