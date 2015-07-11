@@ -56,19 +56,19 @@ Generate hashed passwords
 `bin/customs -generate-pw`
 
 
-HTTP
+Redirecting HTTP traffic to 8080 with auth
 ---
 
 `bin/customs -destination-port=8080 -username="alpha" -password='bravo' `
 
 
-HTTP
+Redirecting HTTP traffic from port 8010 to 8080 with auth specified using bcrypt
 ---
 
 `bin/customs -destination-port=8080 -username="alpha" -password='$2a$10$pQl5ow/s6wTMpy2bqTvsJuE51cVMhAZcBkucrrGMX016iVzwINd9C' `
 
 
-HTTPS
+Redirecting HTTP traffic from port 8010 and HTTPS traffic from 8011 to 8080 with auth specified using bcrypt
 ---
 
 ```
