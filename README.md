@@ -12,6 +12,10 @@ Right now, it doesn't:
 - Set up X-Forwarded headers
 - Let HTTP Auth header go through
 - Produce any CLF type logs
+- Do HTTPS Client authentication
+- IP Whitelisting/Blacklisting
+
+Contributions on these, or others, are Welcome!
 
 
 OPTIONS
