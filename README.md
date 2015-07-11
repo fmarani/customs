@@ -17,6 +17,12 @@ Right now, it doesn't:
 
 Contributions on these, or others, are Welcome!
 
+QUICKSTART
+---
+
+- git clone this repo
+- run `./compile.sh`
+- run `bin/customs`
 
 OPTIONS
 ---
