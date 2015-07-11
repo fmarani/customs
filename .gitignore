@@ -1,0 +1,5 @@
+bin/
+pkg/
+src/golang.org/
+private_key
+public_key
