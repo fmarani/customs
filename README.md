@@ -15,8 +15,9 @@ Right now, it doesn't:
 
 
 OPTIONS
-===
+---
 
+```
 Usage of bin/customs:
   -destination-host="127.0.0.1": Host to reverse proxy to
   -destination-port=80: Port to reverse proxy to
@@ -27,7 +28,7 @@ Usage of bin/customs:
   -source-http=8010: Port for incoming connections on HTTP, 0 to disable
   -source-https=0: Port for incoming connections on HTTPS, 0 to disable
   -username="customs": User to get through
-
+```
 
 EXAMPLE USAGE
 ===
