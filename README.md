@@ -46,25 +46,27 @@ EXAMPLE USAGE
 Generate hashed passwords
 ---
 
-bin/customs -generate-pw
+`bin/customs -generate-pw`
 
 
 HTTP
 ---
 
-bin/customs -destination-port=8080 -username="alpha" -password='bravo' 
+`bin/customs -destination-port=8080 -username="alpha" -password='bravo' `
 
 
 HTTP
 ---
 
-bin/customs -destination-port=8080 -username="alpha" -password='$2a$10$pQl5ow/s6wTMpy2bqTvsJuE51cVMhAZcBkucrrGMX016iVzwINd9C' 
+`bin/customs -destination-port=8080 -username="alpha" -password='$2a$10$pQl5ow/s6wTMpy2bqTvsJuE51cVMhAZcBkucrrGMX016iVzwINd9C' `
 
 
 HTTPS
 ---
 
+```
 openssl genrsa -out private_key 2048  # generate private key for first run
 openssl req -new -x509 -key private_key -out public_key -days 365  # and public certificate
 
 bin/customs -destination-port=8080 -username="alpha" -password='$2a$10$pQl5ow/s6wTMpy2bqTvsJuE51cVMhAZcBkucrrGMX016iVzwINd9C' -source-https=8011 -https-cert=public_key -https-priv-key=private_key
+```
